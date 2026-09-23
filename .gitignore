@@ -1,0 +1,14 @@
+# Secara default, jangan lacak isi folder Praktikum.
+/*
+
+# Simpan aturan ini agar kebijakan allowlist ikut masuk repository.
+!/.gitignore
+
+# Berkas dan folder yang boleh dipublikasikan.
+!/requirements.txt
+!/notebooks/
+!/data/
+!/templates/
+
+# Dataset hasil unduhan bersifat besar dan dapat dibuat ulang.
+/data/raw/
