@@ -1,0 +1,5 @@
+seed,tahap,yang_diperbaiki,loss_awal,loss_akhir,benar
+41,perbaikan-1: tambah ReLU,aktivasi,0.7325489380458599,0.6931471805599453,2
+41,perbaikan-2: pakai logit,"aktivasi,logit",0.6996202494811642,0.0,4
+41,perbaikan-3: urutan step,"aktivasi,logit,urutan",0.6996202494811642,0.0,4
+41,perbaikan-4: zero_grad,"aktivasi,logit,urutan,zero_grad",0.6996202494811642,0.0004953253763278835,4
